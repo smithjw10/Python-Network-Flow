@@ -5,11 +5,11 @@ compile:
 	@echo 'Python solution. Nothing to compile.'
 
 run:
-	python3 soccer-elimination.py $(input) $(output)
+	python3 Tournament-Network-Flow.py $(input) $(output)
 
 list:
 	ls *.py
 
 show:
-	@echo 'Showing python file soccer-elimination.py'
-	cat soccer-elimination.py
+	@echo 'Showing python file Tournament-Network-Flow.py'
+	cat Tournament-Network-Flow.py
